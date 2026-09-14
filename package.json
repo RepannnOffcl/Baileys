@@ -1,0 +1,20 @@
+{
+  "name": "repanos-baileys-runner",
+  "version": "1.0.0",
+  "description": "RepanOS - Baileys Script Runner by RepanOffcl",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "dotenv": "^17.2.2",
+    "pino": "^9.9.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
